@@ -71,4 +71,10 @@ public class MainConfig {
         return new Person("Linus",40);
     }
 
+    //这里返回的是一个MyBeanFactory bean，但实际上是产生一个Colour类在容器中，而并不是MyBeanFactory类
+    @Bean
+    public MyBeanFactory myBeanFactory(){
+        return new MyBeanFactory();
+    }
+
 }
