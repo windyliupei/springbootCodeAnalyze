@@ -1,21 +1,23 @@
 package com.windy.javacode.test;
 
 
-import com.windy.javacode.MainConfig;
-import com.windy.javacode.Person;
-import org.junit.Assert;
-import org.junit.Test;
+import com.windy.javacode.config.MainConfig;
+import com.windy.javacode.beans.Person;
+import com.windy.javacode.contorller.BookContorller;
+import org.junit.*;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class MainTest {
 
+    @Autowired
+    BookContorller contorller;
     /*
     使用配置文件
     * */
@@ -64,4 +66,11 @@ public class MainTest {
         Assert.assertTrue(person.getName().equals("lisi"));
     }
 
+    @Test
+    public void iocTest(){
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
+        String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
+        contorller.equals(null);
+        Assert.assertTrue(beanDefinitionNames.length>0);
+    }
 }

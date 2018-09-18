@@ -1,4 +1,4 @@
-package com.windy.javacode;
+package com.windy.javacode.beans;
 
 /**
  * @author Windy
