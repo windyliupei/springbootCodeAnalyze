@@ -23,7 +23,7 @@ public class MyTypeFilter implements TypeFilter {
         //获取当前类资源
         Resource resource = metadataReader.getResource();
 
-        if (classMetadata.getClassName().contains("Book")){
+           if (classMetadata.getClassName().contains("Book")){
             return true;
         }
 

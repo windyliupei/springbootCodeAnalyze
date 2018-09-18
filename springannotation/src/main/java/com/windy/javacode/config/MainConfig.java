@@ -2,9 +2,9 @@ package com.windy.javacode.config;
 
 
 import com.windy.javacode.beans.Person;
-import com.windy.javacode.services.BookService;
+import com.windy.javacode.config.selectors.MyDefinationSelector;
+import com.windy.javacode.config.selectors.MyImportSelector;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Controller;
 
 //配置类==配置文件
 @Configuration
@@ -29,6 +29,14 @@ import org.springframework.stereotype.Controller;
 //})
 
 
+
+
+
+//要导入到容器中的组件，ID默认是全名
+//@Import({Colour.class, Red.class})
+
+//返回需要导入的组件的全类名数组
+@Import({MyImportSelector.class, MyDefinationSelector.class})
 
 @ComponentScan(value = "com.windy.javacode")
 public class MainConfig {
