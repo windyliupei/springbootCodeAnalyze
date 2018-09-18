@@ -3,10 +3,7 @@ package com.windy.javacode.config;
 
 import com.windy.javacode.beans.Person;
 import com.windy.javacode.services.BookService;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
+import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Controller;
 
 //配置类==配置文件
@@ -36,10 +33,34 @@ import org.springframework.stereotype.Controller;
 @ComponentScan(value = "com.windy.javacode")
 public class MainConfig {
 
+
+    //@Scope(value="singleton")
+    //@Scope(value = "prototype")
+    //默认：singleton
+
+
+    //@Lazy:创建容器时并不加载Bean，也就是不创建Bean，这个只在@Scope为singleton的时候起作用
+
+
+
     //和xml中的bean标签一样，方法名为ID
-    @Bean(value = "person01")
+    @Bean(value = "person")
     public Person person(){
+        System.out.print("开始创建Person对象");
         return new Person("lisi",20);
+    }
+
+    @Conditional({WindowsCondition.class})
+    @Bean("bill")
+    public Person person01(){
+        return new Person("Bill Gates",60);
+    }
+
+    //配置 VM arguments -Dos.name=linux，模拟在linux下运行
+    @Conditional({LinuxCondition.class})
+    @Bean("linus")
+    public Person person02(){
+        return new Person("Linus",40);
     }
 
 }

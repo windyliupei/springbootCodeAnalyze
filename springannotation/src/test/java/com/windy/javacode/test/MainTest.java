@@ -12,12 +12,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Map;
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class MainTest {
 
-    @Autowired
-    BookContorller contorller;
+
+
     /*
     使用配置文件
     * */
@@ -69,8 +71,17 @@ public class MainTest {
     @Test
     public void iocTest(){
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
+
+        //更改MainConfig中 @ComponentScan 查看容器中的实例
         String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
-        contorller.equals(null);
+
+        //更改MainConfig中 @Scope查看什么时候创建Person对象
+        applicationContext.getBean("person");
+
+
+        String[] namesForType = applicationContext.getBeanNamesForType(Person.class);
+        Map<String, Person> beansOfType = applicationContext.getBeansOfType(Person.class);
+
         Assert.assertTrue(beanDefinitionNames.length>0);
     }
 }
