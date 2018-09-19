@@ -1,9 +1,14 @@
 package com.windy.javacode.config;
 
 
+import com.windy.javacode.beans.Car;
+import com.windy.javacode.beans.IAnimals;
 import com.windy.javacode.beans.Person;
+import com.windy.javacode.config.conditions.LinuxCondition;
+import com.windy.javacode.config.conditions.WindowsCondition;
 import com.windy.javacode.config.selectors.MyDefinationSelector;
 import com.windy.javacode.config.selectors.MyImportSelector;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 
 //配置类==配置文件
@@ -41,6 +46,8 @@ import org.springframework.context.annotation.*;
 @ComponentScan(value = "com.windy.javacode")
 public class MainConfig {
 
+    @Autowired
+    IAnimals animals;
 
     //@Scope(value="singleton")
     //@Scope(value = "prototype")
@@ -76,5 +83,13 @@ public class MainConfig {
     public MyBeanFactory myBeanFactory(){
         return new MyBeanFactory();
     }
+
+    //12、生命周期-@Bean指定初始化和销毁方法
+    @Bean(initMethod = "init",destroyMethod = "destroy")
+    public Car car01(){
+        return new Car();
+    }
+
+
 
 }

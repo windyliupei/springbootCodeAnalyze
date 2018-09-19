@@ -1,4 +1,4 @@
-package com.windy.javacode.config;
+package com.windy.javacode.config.conditions;
 
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.annotation.Condition;
