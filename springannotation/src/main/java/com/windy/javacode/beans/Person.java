@@ -1,5 +1,7 @@
 package com.windy.javacode.beans;
 
+import org.springframework.beans.factory.annotation.Value;
+
 /**
  * @author Windy
  */
@@ -29,6 +31,13 @@ public class Person {
         this.name = name;
     }
 
+    //使用@value赋值
+    //1基本数据类型
+    //2可以写SpEL（Spring，表达式#{}）
+    //3可以写${}取出配置文件的值
+
+
+    @Value("Yom")
     private Integer age;
     private String name;
 

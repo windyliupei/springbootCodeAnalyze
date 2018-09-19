@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8543b34c-66b5-4854-bf31-24c92f34f6a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/IAnimals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring注解驱动开发.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Spring注解驱动开发.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/AsiaPerson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/LinuxCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/conditions/LinuxCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/WindowsCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/conditions/WindowsCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,14 +66,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2498" />
+          <entry key="java" value="2727" />
           <entry key="md" value="80" />
           <entry key="txt" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2498" />
+          <entry key="JAVA" value="2727" />
           <entry key="Markdown" value="80" />
           <entry key="PLAIN_TEXT" value="93" />
         </counts>
@@ -88,7 +81,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="49" />
+          <entry key="java" value="52" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -96,7 +89,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="52" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -105,6 +98,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+              <folding>
+                <element signature="method#mainXmlConfigTest#0;class#MainTest#0" />
+                <element signature="method#AnnotationConfig#0;class#MainTest#0" />
+                <element signature="method#getBeansNames#0;class#MainTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MainConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,13 +147,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="387">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,30 +187,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/conditions/LinuxCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/conditions/WindowsCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,18 +218,6 @@
                 <element signature="e#152#153#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/selectors/MyImportSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -272,7 +266,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyImportSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/selectors/MyImportSelector.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyTypeFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/selectors/MyDefinationSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/LinuxCondition.java" />
@@ -282,6 +275,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java" />
       </list>
     </option>
   </component>
@@ -351,7 +347,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javacode" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springannotation" type="b2602c69:ProjectViewProjectNode" />
@@ -361,7 +357,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javacode" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="selectors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springannotation" type="b2602c69:ProjectViewProjectNode" />
@@ -399,7 +394,7 @@
     <property name="SearchEverywhereHistoryKey" value="MyTypeFilter&#9;FILE&#9;file://C:/Workspace/StudyDemo/springBootCodeAanlyze/springannotation/src/main/java/com/windy/javacode/config/MyTypeFilter.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537342932840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537344129296" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -513,7 +508,7 @@
       <updated>1537153956535</updated>
       <workItem from="1537153961850" duration="4930000" />
       <workItem from="1537165942894" duration="23769000" />
-      <workItem from="1537321077590" duration="9356000" />
+      <workItem from="1537321077590" duration="11129000" />
     </task>
     <task id="LOCAL-00001" summary="Finish ComponentsScan">
       <created>1537237453922</created>
@@ -550,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537323373617</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="生命周期">
+      <created>1537342966224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537342966224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -586,10 +588,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38055000" />
+    <option name="totallyTimeSpent" value="39828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -636,14 +639,15 @@
     <MESSAGE value="@Import 注解和ImportSelector,和ImportBeanDefinitionRegistrar" />
     <MESSAGE value="FactoryBean" />
     <MESSAGE value="组件注册思维导图" />
-    <option name="LAST_COMMIT_MESSAGE" value="组件注册思维导图" />
+    <MESSAGE value="生命周期" />
+    <option name="LAST_COMMIT_MESSAGE" value="生命周期" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java</url>
-          <line>72</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -801,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/annotation/Conditional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -867,18 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="method#mainXmlConfigTest#0;class#MainTest#0" />
-            <element signature="method#AnnotationConfig#0;class#MainTest#0" />
-            <element signature="method#getBeansNames#0;class#MainTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/IAnimals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -930,18 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,13 +970,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="387">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="method#mainXmlConfigTest#0;class#MainTest#0" />
+            <element signature="method#AnnotationConfig#0;class#MainTest#0" />
+            <element signature="method#getBeansNames#0;class#MainTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -3,11 +3,13 @@ package com.windy.javacode.test;
 
 import com.windy.javacode.config.MainConfig;
 import com.windy.javacode.beans.Person;
+import com.windy.javacode.config.MyConfigoOfPropertValues;
 import com.windy.javacode.contorller.BookContorller;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -87,5 +89,16 @@ public class MainTest {
         Map<String, Person> beansOfType = applicationContext.getBeansOfType(Person.class);
 
         Assert.assertTrue(beanDefinitionNames.length>0);
+    }
+
+    @Test
+    public void iotTest_PropertyValues(){
+
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MyConfigoOfPropertValues.class);
+
+        String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
+
+
+
     }
 }
