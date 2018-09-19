@@ -13,6 +13,7 @@ public class MyDefinationSelector implements ImportBeanDefinitionRegistrar {
      *
      */
 
+    @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
         boolean containsColour = registry.containsBeanDefinition("com.windy.javacode.beans.Colour");
 

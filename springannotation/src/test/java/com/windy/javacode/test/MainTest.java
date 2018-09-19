@@ -79,7 +79,7 @@ public class MainTest {
         applicationContext.getBean("person");
 
 
-        //家上 & 前缀后会获得MyBeanFactory 对象
+        //加上 & 前缀后会获得MyBeanFactory 对象
         Object myBeanFactory = applicationContext.getBean("myBeanFactory");
         Object myBeanFactoryRealName = applicationContext.getBean("&myBeanFactory");
 
