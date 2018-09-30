@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8543b34c-66b5-4854-bf31-24c92f34f6a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/dao/BookDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring注解驱动开发.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Spring注解驱动开发.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/windy/javacode/test/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/windy/javacode/test/MainTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,38 +64,43 @@
     <session id="1602570332">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2727" />
+          <entry key="java" value="3573" />
           <entry key="md" value="80" />
-          <entry key="txt" value="93" />
+          <entry key="txt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2727" />
+          <entry key="JAVA" value="3573" />
           <entry key="Markdown" value="80" />
-          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="PLAIN_TEXT" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="52" />
+          <entry key="class" value="10" />
+          <entry key="java" value="61" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="52" />
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="61" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -98,11 +109,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="586">
+              <caret line="170" column="74" lean-forward="true" selection-start-line="170" selection-start-column="74" selection-end-line="170" selection-end-column="74" />
               <folding>
                 <element signature="method#mainXmlConfigTest#0;class#MainTest#0" />
                 <element signature="method#AnnotationConfig#0;class#MainTest#0" />
@@ -112,112 +123,100 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.8.RELEASE/spring-test-5.0.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigAutowired.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="32" column="7" selection-start-line="26" selection-start-column="3" selection-end-line="32" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/annotation/Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="130" column="11" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/dao/BookDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MainConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2118#2119#0" expanded="true" />
-                <element signature="e#2149#2150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyTypeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,6 +237,7 @@
       <find>person01</find>
       <find>MyImportSelector</find>
       <find>MyBeanFactory</find>
+      <find>Yom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,12 +256,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/note.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/AsiaPerson.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/WindowsCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyImportSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java" />
@@ -276,8 +273,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigAutowired.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java" />
       </list>
     </option>
   </component>
@@ -307,6 +309,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,7 +350,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javacode" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springannotation" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +359,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javacode" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="contorller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javacode" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springannotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javacode" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springannotation" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +404,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +414,7 @@
     <property name="SearchEverywhereHistoryKey" value="MyTypeFilter&#9;FILE&#9;file://C:/Workspace/StudyDemo/springBootCodeAanlyze/springannotation/src/main/java/com/windy/javacode/config/MyTypeFilter.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537344129296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538290569493" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -421,8 +441,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.iocTest">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.DescEncrypt">
+    <configuration name="MainTest.DescEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
@@ -432,6 +452,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.windy.javacode.test" />
       <option name="MAIN_CLASS_NAME" value="com.windy.javacode.test.MainTest" />
+      <option name="METHOD_NAME" value="DescEncrypt" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -452,7 +474,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.mainXmlConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.iotTest_Autowired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
@@ -462,7 +484,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.windy.javacode.test" />
       <option name="MAIN_CLASS_NAME" value="com.windy.javacode.test.MainTest" />
-      <option name="METHOD_NAME" value="mainXmlConfigTest" />
+      <option name="METHOD_NAME" value="iotTest_Autowired" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.iotTest_Autowired2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windy.javacode.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.windy.javacode.test" />
+      <option name="MAIN_CLASS_NAME" value="com.windy.javacode.test.MainTest" />
+      <option name="METHOD_NAME" value="iotTest_Autowired2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -482,17 +520,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.mainXmlConfigTest" />
       <item itemvalue="JUnit.MainTest.iocTest" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.MainTest.iotTest_Autowired" />
+      <item itemvalue="JUnit.MainTest.iotTest_Autowired2" />
+      <item itemvalue="JUnit.MainTest.DescEncrypt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.DescEncrypt" />
+        <item itemvalue="JUnit.MainTest.iotTest_Autowired2" />
+        <item itemvalue="JUnit.MainTest.iotTest_Autowired" />
         <item itemvalue="JUnit.MainTest.iocTest" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.MainTest.mainXmlConfigTest" />
-        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +548,13 @@
       <updated>1537153956535</updated>
       <workItem from="1537153961850" duration="4930000" />
       <workItem from="1537165942894" duration="23769000" />
-      <workItem from="1537321077590" duration="11129000" />
+      <workItem from="1537321077590" duration="13204000" />
+      <workItem from="1537492166776" duration="6864000" />
+      <workItem from="1537515418843" duration="2656000" />
+      <workItem from="1537835333924" duration="786000" />
+      <workItem from="1537856620226" duration="2762000" />
+      <workItem from="1537921259824" duration="91000" />
+      <workItem from="1538287756464" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="Finish ComponentsScan">
       <created>1537237453922</created>
@@ -552,49 +598,56 @@
       <option name="project" value="LOCAL" />
       <updated>1537342966224</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Value给属性赋值">
+      <created>1537345525078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537345525078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 10h 21m 32s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 27m 49s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 10h 22m 00s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 33m 06s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 10h 22m 33s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 34m 09s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 13h 47m 18s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 36m 33s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 13h 48m 38s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 37m 08s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 15h 08m 38s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 38m 55s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 15h 09m 11s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 48m 39s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.18 at 15h 10m 13s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 48m 40s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.19 at 11h 18m 50s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 49m 07s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_iocTest - 2018.09.19 at 11h 19m 55s.xml">
-      <configuration name="MainTest.iocTest" configurationId="JUnit" />
+    <history-entry file="MainTest_DescEncrypt - 2018.09.30 at 14h 50m 17s.xml">
+      <configuration name="MainTest.DescEncrypt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39828000" />
+    <option name="totallyTimeSpent" value="57751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -603,7 +656,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -640,16 +693,41 @@
     <MESSAGE value="FactoryBean" />
     <MESSAGE value="组件注册思维导图" />
     <MESSAGE value="生命周期" />
-    <option name="LAST_COMMIT_MESSAGE" value="生命周期" />
+    <MESSAGE value="Value给属性赋值" />
+    <option name="LAST_COMMIT_MESSAGE" value="Value给属性赋值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java</url>
-          <line>74</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -659,6 +737,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bookDao</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>environment.getProperty(&quot;os.name&quot;).contains(&quot;Windows&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -689,20 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.8.RELEASE/spring-test-5.0.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -725,34 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -858,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,9 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="74" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,9 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,26 +943,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/AsiaPerson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/AsiaPerson.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyTypeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="506">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="154">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -932,94 +993,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MainConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-            <element signature="e#2149#2150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyTypeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigoOfPropertValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="method#mainXmlConfigTest#0;class#MainTest#0" />
-            <element signature="method#AnnotationConfig#0;class#MainTest#0" />
-            <element signature="method#getBeansNames#0;class#MainTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/beans/Person.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="45" column="4" selection-start-line="45" selection-end-line="45" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/config/MyConfigAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" column="7" selection-start-line="26" selection-start-column="3" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/annotation/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="130" column="11" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/services/NetBookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/services/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/contorller/BookContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/windy/javacode/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.8.RELEASE/spring-test-5.0.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/windy/javacode/test/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="170" column="74" lean-forward="true" selection-start-line="170" selection-start-column="74" selection-end-line="170" selection-end-column="74" />
+          <folding>
+            <element signature="method#mainXmlConfigTest#0;class#MainTest#0" />
+            <element signature="method#AnnotationConfig#0;class#MainTest#0" />
+            <element signature="method#getBeansNames#0;class#MainTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -32,12 +32,12 @@ public class Person {
     }
 
     //使用@value赋值
-    //1基本数据类型
-    //2可以写SpEL（Spring，表达式#{}）
-    //3可以写${}取出配置文件的值
+    //1。基本数据类型
+    //2。可以写SpEL（Spring，表达式#{}）
+    //3。可以写${}取出配置文件的值
 
 
-    @Value("Yom")
+    @Value("2")
     private Integer age;
     private String name;
 
